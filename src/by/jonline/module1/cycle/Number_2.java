@@ -57,8 +57,8 @@ public class Number_2 {
 	public static double enterFromConsole() {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		// ������������, ����� ������� � ������� ������������ ����� ����� ����� (��
-		// ��������� ���� ����� �������)
+		// используется, чтобы вводить в консоль вещественные числа через точку (по
+		// умолчанию ввод через запятую)
 		sc.useLocale(Locale.ENGLISH);
 
 		System.out.println("Введите число: ");

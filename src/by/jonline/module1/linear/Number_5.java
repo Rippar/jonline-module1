@@ -18,7 +18,7 @@ public class Number_5 {
 		h = time % (60 * 60 * 24) / (60 * 60);
 		
 		if (time>=0) {
-		    System.out.println(h + "� " + m + "� " + s + "� ");
+		    System.out.println(h + "ч " + m + "м " + s + "с ");
 		    
 		} else {
 			System.out.println("Нужно было ввести целое положительное число!");
